@@ -4,5 +4,6 @@
     <string name="button">Decide!</string>
     <string name="todo">TODO</string>
     <string name="add_food">Add Food</string>
-    <string name="the_food_name">add new food ...</string>
+    <string name="the_food_name">add new food &#8230;</string>
+    <string name="random_food">Random Food</string>
 </resources>

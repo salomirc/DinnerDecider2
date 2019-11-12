@@ -19,7 +19,7 @@
         android:gravity="center_vertical"
         android:text="@string/chinese"
         android:textAlignment="center"
-        android:textColor="#5E5E5E"
+        android:textColor="#9C27B0"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -82,14 +82,29 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
         android:background="@color/colorPrimary"
         android:text="@string/add_food"
         android:textColor="@android:color/background_light"
-        app:layout_constraintBottom_toTopOf="@+id/decideButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.511"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/addFoodEditText" />
+
+    <Button
+        android:id="@+id/RandomButton"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#673AB7"
+        android:text="@string/random_food"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintBottom_toTopOf="@+id/decideButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addFoodButton" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
