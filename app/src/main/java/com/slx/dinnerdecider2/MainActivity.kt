@@ -30,6 +30,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         var occupation = "AAA"
+
+        var name = "JonnyB"
         //setContentView(R.layout.activity_main2)
 
         //SetConstraintLayoutHeight()
