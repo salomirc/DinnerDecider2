@@ -28,6 +28,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        var name = "JonnyB"
         //setContentView(R.layout.activity_main2)
 
         //SetConstraintLayoutHeight()
